@@ -6,7 +6,7 @@ import "./styles.css";
    PERSONAL INFORMATION
 ========================================================= */
 
-const PROFILE_IMAGE = "public/profile.jpg/profile01.jpg";
+const PROFILE_IMAGE = `${import.meta.env.BASE_URL}profile.jpg/profile01.jpg`;
 
 const RESUME_LINK = "/resume.pdf";
 
