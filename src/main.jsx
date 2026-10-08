@@ -8,7 +8,7 @@ import "./styles.css";
 
 const PROFILE_IMAGE = `${import.meta.env.BASE_URL}profile.jpg/profile01.jpg`;
 
-const RESUME_LINK = "/resume.pdf";
+const RESUME_LINK = `${import.meta.env.BASE_URL}resume.pdf/resume (2).pdf`;
 
 const GITHUB_LINK =
   "https://github.com/ashritha082005-max";
@@ -91,7 +91,7 @@ const projects = [
     ],
 
     link: "#",
-    github: GITHUB_LINK
+    github: "https://ashritha082005-max.github.io/Ashraya_Portfolio/"
   }
 ];
 
@@ -510,17 +510,11 @@ function App() {
 
             <div className="portrait-frame">
 
-              <img
-                src={PROFILE_IMAGE}
-                alt="Ashritha Achary"
-                onError={(event) => {
-                  event.currentTarget.style.display =
-                    "none";
-
-                  event.currentTarget.nextElementSibling.style.display =
-                    "flex";
-                }}
-              />
+           <img
+  src="https://ashritha082005-max.github.io/Ashraya_Portfolio/profile.jpg/profile01.jpg"
+  alt="Ashritha Achary"
+  className="profile-photo"
+/>
 
               <div className="image-placeholder">
 
