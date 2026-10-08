@@ -8,7 +8,7 @@ import "./styles.css";
 
 const PROFILE_IMAGE = `${import.meta.env.BASE_URL}profile.jpg/profile01.jpg`;
 
-const RESUME_LINK = `${import.meta.env.BASE_URL}resume.pdf/resume (2).pdf`;
+const RESUME_LINK = `${import.meta.env.BASE_URL}resume.pdf/resume (3).pdf`;
 
 const GITHUB_LINK =
   "https://github.com/ashritha082005-max";
