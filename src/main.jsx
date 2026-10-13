@@ -30,11 +30,11 @@ const projects = [
   {
     number: "01",
     icon: "AI",
-    title: "Ashraya AI",
+    title: "Ashraya LocalLense AI",
     subtitle: "AI Emergency Response Copilot",
 
     description:
-      "An AI-powered emergency response platform designed to provide structured guidance during critical situations such as accidents, fires, floods, severe bleeding, snake bites, heart emergencies and unconsciousness. The platform combines emergency assistance, SOS support, emergency contacts and location sharing into a full-stack web application.",
+      " Built an AI-powered emergency response platform providing step-by-step guidance for road accidents, fires, floods, severe bleeding,snake bites, and cardiac emergencies. Implemented SOS support, emergency contacts, location sharing, and AI-generated emergency response guidance.Developed a responsive full-stack architecture using React.js, Node.js, Express.js, MongoDB, REST APIs, and Generative AI.",
 
     tags: [
       "React.js",
@@ -53,19 +53,18 @@ const projects = [
   {
     number: "02",
     icon: "LL",
-    title: "Ashraya_LocalLense_AI",
-    subtitle: "AI-Powered Local Needs & Reuse Platform",
+    title: "Ashraya Business Hub",
+    subtitle: "Full Stack Business Management Platform",
 
     description:
-      "An AI-powered platform designed to help users discover practical local solutions through repair, reuse, donation, recycling and resale recommendations. The project combines Generative AI with location-based discovery using OpenStreetMap.",
+      "Developed a full-stack digital business platform for managing and discovering businesses across multiple categories. Built a responsive React.js frontend with FastAPI backend and MongoDB for authentication, API communication, and structured business data management. Implemented category-based business discovery with a scalable architecture and user-friendly interface.",
 
     tags: [
       "React.js",
-      "Node.js",
-      "Express.js",
+      "Python",
+      "Fast API",
       "MongoDB",
-      "GenAI",
-      "OpenStreetMap"
+      "Rest APIs"
     ],
 
     link: "#",
